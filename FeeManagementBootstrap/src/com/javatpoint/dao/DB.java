@@ -7,7 +7,7 @@ public static Connection getCon(){
 		Class.forName("com.mysql.jdbc.Driver");
 		
 		con=DriverManager.getConnection("jdbc:mysql://localhost:3306/fee","root","Errormysql");
-	}catch(Exception ex){System.out.println(ex);}
+	}catch(Exception ex){System.out.println(ex+"Eror");}
 	return con;
 }
 }
